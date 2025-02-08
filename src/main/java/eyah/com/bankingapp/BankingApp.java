@@ -12,7 +12,7 @@ public class BankingApp {
     public static void main(String[] args) {
         String cont = "yes";
         float balance = 0;
-        System.out.println("Welcome to Eyyyaahboobank!");
+        //System.out.println("Welcome to Eyyyaahboobank!");
 
         try (Scanner scan = new Scanner(System.in)) {
             while (cont.equalsIgnoreCase("yes")) {
